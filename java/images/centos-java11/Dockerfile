@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:centos8.4.2105
 
 ARG EXPOSE_PORT=8080
 EXPOSE ${EXPOSE_PORT}
